@@ -1,0 +1,61 @@
+body {
+    padding: 2rem;
+    background-color: rgb(244, 198, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 3rem;
+}
+
+#form, #table {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px dashed purple;
+}
+
+#form input {
+    width: 20%;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem;
+}
+
+#form button {
+    padding: 0.66rem 1.2rem;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 30%;
+    background-color: rgb(255, 255, 143);
+    border: none;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+caption {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+table {
+    width:60%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: purple;
+}
+
